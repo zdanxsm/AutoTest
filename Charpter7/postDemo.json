@@ -1,0 +1,16 @@
+[
+  {
+    "description":"post请求",
+    "request":{
+      "uri":"/postPa",
+      "method":"post",
+      "forms":{
+        "name":"zhangsan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"the is post zhangsan"
+    }
+  }
+]

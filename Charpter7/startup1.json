@@ -1,0 +1,25 @@
+[
+  {
+    "description":"this is the first moco",
+    "request":{
+      "uri":"/demo"
+    },
+    "response":{
+      "text":"the first moco demo"
+    }
+  },
+  {
+    "description":"get请求",
+    "request":{
+      "uri":"/getPa",
+      "method":"get",
+      "queries":{
+        "name":"zhangsan",
+        "age":"18"
+      }
+    },
+    "response":{
+      "text":"the is zhangsan"
+    }
+  }
+]

@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d19f4860-62a1-44cc-a40b-b461c4462d7e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/BasicAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/suite/IgnoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/suite/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/suite/PayTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/suite/SuiteConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/resources/groupXml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AutoCharpter5/src/main/resources/suite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoCharpter6/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoCharpter6/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoCharpter6/src/main/java/com/tester/extend/demo/TestMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AutoCharpter6/src/main/resources/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Charpter/target/" />
     <ignored path="$PROJECT_DIR$/AutoCharpter5/target/" />
+    <ignored path="$PROJECT_DIR$/AutoCharpter6/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,91 +20,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GroupsOnClass1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupsOnClass2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-              <folding>
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupsOnClass3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupsOnMethod.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="groupXml.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/resources/groupXml.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultiThreadOnAnnotion.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicAnnotation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/BasicAnnotation.java">
+      <file leaf-file-name="TestMethodDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AutoCharpter6/src/main/java/com/tester/extend/demo/TestMethodDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="suite.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/resources/suite.xml">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AutoCharpter6/src/main/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="58" />
+            <state relative-caret-position="74">
+              <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -143,6 +72,11 @@
         <option value="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass3.java" />
         <option value="$PROJECT_DIR$/AutoCharpter5/src/main/resources/groupXml.xml" />
         <option value="$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/AutoCharpter6/src/main/java/com/tester/extend/demo/TestMethodDemo.java" />
+        <option value="$PROJECT_DIR$/AutoCharpter6/pom.xml" />
+        <option value="$PROJECT_DIR$/AutoCharpter6/src/main/java/com/tester/extend/demo/Lin.java" />
+        <option value="$PROJECT_DIR$/AutoCharpter6/src/main/resources/testng.xml" />
       </list>
     </option>
   </component>
@@ -160,19 +94,19 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="419" />
-    <option name="y" value="81" />
-    <option name="width" value="889" />
-    <option name="height" value="593" />
+    <option name="x" value="308" />
+    <option name="y" value="59" />
+    <option name="width" value="904" />
+    <option name="height" value="592" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,50 +122,51 @@
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoCharpter5" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoCharpter6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoCharpter6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoCharpter5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoCharpter5" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoCharpter6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoCharpter5" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoCharpter6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoCharpter5" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoCharpter6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="groups" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoCharpter5" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoCharpter6" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoCharpter6" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,6 +186,11 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\AutoTest4\AutoTest" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -263,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.GroupsOnMethod">
+  <component name="RunManager" selected="TestNG.D:/workspace/AutoTest4/AutoTest/AutoCharpter6/src/main/resources/testng.xml">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -312,11 +252,11 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="D:/workspace/AutoTest3/AutoTest/AutoCharpter5/src/main/resources/groupXml.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoCharpter5" />
+    <configuration name="D:/workspace/AutoTest4/AutoTest/AutoCharpter6/src/main/resources/testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoCharpter6" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/AutoCharpter5/src/main/resources/groupXml.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/AutoCharpter6/src/main/resources/testng.xml" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
@@ -364,19 +304,19 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="IgnoreTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MultiThreadOnAnnotion" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutoCharpter5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.suite.*" />
+          <option name="PATTERN" value="com.course.testng.multiThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.course.testng.suite" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.suite.IgnoreTest" />
+      <option name="PACKAGE_NAME" value="com.course.testng.multiThread" />
+      <option name="MAIN_CLASS_NAME" value="com.course.testng.multiThread.MultiThreadOnAnnotion" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -393,19 +333,19 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="MultiThreadOnAnnotion" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutoCharpter5" />
+    <configuration name="TestMethodDemo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutoCharpter6" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.course.testng.multiThread.*" />
+          <option name="PATTERN" value="com.tester.extend.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.course.testng.multiThread" />
-      <option name="MAIN_CLASS_NAME" value="com.course.testng.multiThread.MultiThreadOnAnnotion" />
+      <option name="PACKAGE_NAME" value="com.tester.extend.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.tester.extend.demo.TestMethodDemo" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -445,19 +385,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.IgnoreTest" />
       <item itemvalue="TestNG.GroupsOnMethod" />
-      <item itemvalue="TestNG.D:/workspace/AutoTest3/AutoTest/AutoCharpter5/src/main/resources/groupXml.xml" />
       <item itemvalue="TestNG.MultiThreadOnAnnotion" />
       <item itemvalue="TestNG.BasicAnnotation" />
+      <item itemvalue="TestNG.TestMethodDemo" />
+      <item itemvalue="TestNG.D:/workspace/AutoTest4/AutoTest/AutoCharpter6/src/main/resources/testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/workspace/AutoTest4/AutoTest/AutoCharpter6/src/main/resources/testng.xml" />
+        <item itemvalue="TestNG.TestMethodDemo" />
         <item itemvalue="TestNG.GroupsOnMethod" />
         <item itemvalue="TestNG.BasicAnnotation" />
         <item itemvalue="TestNG.MultiThreadOnAnnotion" />
-        <item itemvalue="TestNG.D:/workspace/AutoTest3/AutoTest/AutoCharpter5/src/main/resources/groupXml.xml" />
-        <item itemvalue="TestNG.IgnoreTest" />
       </list>
     </recent_temporary>
   </component>
@@ -473,31 +413,11 @@
       <updated>1562661573417</updated>
       <workItem from="1562661574945" duration="11439000" />
       <workItem from="1562761236870" duration="4829000" />
+      <workItem from="1562827534149" duration="4677000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GroupsOnMethod - 2019.07.09 at 19h 08m 51s.xml">
-      <configuration name="GroupsOnMethod" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupsOnMethod - 2019.07.09 at 19h 09m 24s.xml">
-      <configuration name="GroupsOnMethod" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__workspace_AutoTest3_AutoTest_AutoCharpter5_src_main_resources_groupXml_xml - 2019.07.09 at 19h 31m 23s.xml">
-      <configuration name="D:/workspace/AutoTest3/AutoTest/AutoCharpter5/src/main/resources/groupXml.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__workspace_AutoTest3_AutoTest_AutoCharpter5_src_main_resources_groupXml_xml - 2019.07.09 at 19h 34m 12s.xml">
-      <configuration name="D:/workspace/AutoTest3/AutoTest/AutoCharpter5/src/main/resources/groupXml.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MultiThreadOnAnnotion - 2019.07.09 at 20h 37m 19s.xml">
-      <configuration name="MultiThreadOnAnnotion" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MultiThreadOnAnnotion - 2019.07.09 at 20h 38m 29s.xml">
-      <configuration name="MultiThreadOnAnnotion" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MultiThreadOnAnnotion - 2019.07.09 at 20h 38m 55s.xml">
-      <configuration name="MultiThreadOnAnnotion" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="BasicAnnotation - 2019.07.11 at 10h 08m 53s.xml">
       <configuration name="BasicAnnotation" configurationId="TestNG" />
     </history-entry>
@@ -507,34 +427,55 @@
     <history-entry file="GroupsOnMethod - 2019.07.11 at 11h 34m 42s.xml">
       <configuration name="GroupsOnMethod" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMethodDemo - 2019.07.11 at 15h 04m 40s.xml">
+      <configuration name="TestMethodDemo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__workspace_AutoTest4_AutoTest_AutoCharpter6_src_main_resources_testng_xml - 2019.07.11 at 15h 20m 51s.xml">
+      <configuration name="D:/workspace/AutoTest4/AutoTest/AutoCharpter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__workspace_AutoTest4_AutoTest_AutoCharpter6_src_main_resources_testng_xml - 2019.07.11 at 15h 21m 37s.xml">
+      <configuration name="D:/workspace/AutoTest4/AutoTest/AutoCharpter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__workspace_AutoTest4_AutoTest_AutoCharpter6_src_main_resources_testng_xml - 2019.07.11 at 15h 21m 58s.xml">
+      <configuration name="D:/workspace/AutoTest4/AutoTest/AutoCharpter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__workspace_AutoTest4_AutoTest_AutoCharpter6_src_main_resources_testng_xml - 2019.07.11 at 15h 25m 55s.xml">
+      <configuration name="D:/workspace/AutoTest4/AutoTest/AutoCharpter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__workspace_AutoTest4_AutoTest_AutoCharpter6_src_main_resources_testng_xml - 2019.07.11 at 15h 55m 57s.xml">
+      <configuration name="D:/workspace/AutoTest4/AutoTest/AutoCharpter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__workspace_AutoTest4_AutoTest_AutoCharpter6_src_main_resources_testng_xml - 2019.07.11 at 15h 57m 35s.xml">
+      <configuration name="D:/workspace/AutoTest4/AutoTest/AutoCharpter6/src/main/resources/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16268000" />
+    <option name="totallyTimeSpent" value="20945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.63464564" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.6330709" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.37480316" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3559055" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32913387" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25036603" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36062992" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40787402" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22108346" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22520661" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -577,6 +518,79 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/resources/groupXml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/BasicAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -633,13 +647,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Charpter/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/AutoCharpter5/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/suite/SuiteConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -668,16 +675,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/resources/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/multiThread/MultiThreadOnAnnotion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="150">
           <caret line="8" column="45" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -687,8 +687,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/BasicAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="325">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="e#313#314#0" expanded="true" />
             <element signature="e#366#367#0" expanded="true" />
@@ -698,7 +698,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnClass2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="200">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="e#146#147#0" expanded="true" />
@@ -727,17 +727,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/resources/groupXml.xml">
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="25">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/java/com/course/testng/groups/GroupsOnMethod.java">
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/resources/groupXml.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="357">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/src/main/resources/suite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter5/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter6/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter6/src/main/java/com/tester/extend/demo/ExtentTestNGIReporterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6119#6132#0" expanded="true" />
+            <element signature="e#6133#6364#0" expanded="true" />
+            <element signature="e#6363#6364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter6/src/main/java/com/tester/extend/demo/TestMethodDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoCharpter6/src/main/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>

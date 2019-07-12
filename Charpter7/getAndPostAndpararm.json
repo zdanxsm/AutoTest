@@ -1,0 +1,63 @@
+[
+  {
+    "description":"这是一个会返回cookies信息的get请求",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true"
+      },
+      "text":"success get cookies"
+    }
+  },
+  {
+    "description":"get请求",
+    "request":{
+      "uri":"/get/withcookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      },
+      "queries":{
+        "name":"zhangsan",
+        "age":"18"
+      },
+      "headers":{
+        "content-type":"application/json"
+      }
+    },
+    "response":{
+      "status":"200",
+      "json":{
+        "get zhangsan":"is 18",
+        "status":"1"
+      }
+    }
+  },
+  {
+    "description":"post请求",
+    "request":{
+      "uri":"/post/withcookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"zhangsan",
+        "age":"18"
+      },
+      "headers":{
+        "content-type":"application/json"
+      }
+    },
+    "response":{
+      "status":"200",
+      "json":{
+        "post zhangsan":"is 18",
+        "status":"1"
+      }
+    }
+  }
+]

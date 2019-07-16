@@ -10,7 +10,7 @@ public class User {
     private String adminName;
     private String adminPassword;
 
-   /* public User() {
+    public User() {
 
     }
 
@@ -71,5 +71,5 @@ public class User {
                 ", adminName='" + adminName + '\'' +
                 ", adminPassword='" + adminPassword + '\'' +
                 '}';
-    }*/
+    }
 }

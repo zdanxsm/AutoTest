@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="用户管理系统测试套件">
+    <test name="用户管理系统测试用例">
+        <classes>
+            <class name="com.course.cases.LoginTest">
+                <methods>
+                    <include name="LoginTrue"/>
+                    <include name="LoginFalse"/>
+                </methods>
+            </class>
+            <class name="com.course.cases.AddUserCaseTest">
+                <methods>
+                    <include name="addUserCaseTest"/>
+                </methods>
+            </class>
+
+            <class name="com.course.cases.GetUserInfoCaseTest">
+                <methods>
+                    <include name="getUserInfoCaseTest"/>
+                </methods>
+            </class>
+
+            <class name="com.course.cases.GetUserListCaseTest">
+                <methods>
+                    <include name="getUserListCaseTest"/>
+                </methods>
+            </class>
+
+            <class name="com.course.cases.UpdateUserInfoCaseTest">
+                <methods>
+                    <include name="updateUserInfoCaseTest"/>
+                    <include name="deleteUserTest"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+    <listeners>
+        <!--<listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="com.course.config.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

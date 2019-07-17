@@ -1,6 +1,6 @@
 package com.course.controller;
 
-import com.course.model.User;
+import com.course.model.User11;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.log4j.Log4j;
@@ -28,7 +28,7 @@ public class Demo {
 
     @RequestMapping(value = "/addUser",method = RequestMethod.POST)
     @ApiOperation(value = "增加用户接口",httpMethod = "POST")
-    public int addUser(@RequestBody User user){
+    public int addUser(@RequestBody User11 user){
         int addUser = template.insert("addUser", user);
         return addUser;
     }
@@ -55,7 +55,7 @@ public class Demo {
 
     @RequestMapping(value = "/updateUser",method = RequestMethod.POST)
     @ApiOperation(value = "根据传递的参数更新数据接口",httpMethod = "POST")
-    public int updateUser(@RequestBody User user){
+    public int updateUser(@RequestBody User11 user){
         int updateUser = template.update("updateUser", user);
         return updateUser;
     }

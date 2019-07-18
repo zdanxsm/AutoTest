@@ -22,8 +22,8 @@
         where id = #{id};
     </select>
 
-    <select id="upDateUserInfoCase" parameterType="integer" resultType="com.course.model.UpdateUserInfoCase">
-        select * from upDateUserInfoCase
+    <select id="updateUserInfoCase" parameterType="integer" resultType="com.course.model.UpdateUserInfoCase">
+        select * from updateUserInfoCase
         where id = #{id};
     </select>
 </mapper>

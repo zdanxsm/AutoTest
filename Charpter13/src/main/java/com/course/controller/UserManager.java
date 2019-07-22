@@ -114,8 +114,6 @@ public class UserManager {
             return false;
         }
         for (Cookie cookie:cookies){
-            System.out.println(cookie.getName());
-            System.out.println(cookie.getValue());
             if (cookie.getName().equals("login1") && cookie.getValue().equals("true1")){
                 log.info("cookies验证通过");
                 return true;

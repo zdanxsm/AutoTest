@@ -4,6 +4,7 @@ import com.course.config.TestConfig;
 import com.course.model.GetUserListCase;
 import com.course.model.User;
 import com.course.utils.DatabaseUtil;
+import com.course.utils.JsonPrintOut;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
@@ -15,6 +16,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
 
 public class GetUserListCaseTest {
@@ -28,20 +30,21 @@ public class GetUserListCaseTest {
 
         //发送请求获取结果
         JSONArray resultJson = getUserInfoJsonResult(getUserListCase);
-
+        JSONArray resultJsonArray = new JSONArray(resultJson.getString(0));
+        System.out.println(resultJsonArray);
         //用测试数据getUserListCase，在用户表查询出用户列表
         List<User> userListExpect = sqlSession.selectList(getUserListCase.getExpected(), getUserListCase);
-        for (User user:userListExpect){
-            System.out.println("获取的用户列表是：" + user.toString());
-        }
+        /*for (User user:userListExpect){
+            System.out.println("查库获取的用户列表是：" + user.toString());
+        }*/
         JSONArray userListJsonExpect = new JSONArray(userListExpect);
-
+        System.out.println(userListJsonExpect);
         //验证返回结果
-        Assert.assertEquals(userListJsonExpect.length(),resultJson.length());
-        for (int i = 0; i < resultJson.length(); i++) {
+        Assert.assertEquals(userListJsonExpect.length(),resultJsonArray.length());
+        for (int i = 0; i < resultJsonArray.length(); i++) {
             JSONObject expect = (JSONObject) userListJsonExpect.get(i);
-            JSONObject actual = (JSONObject) resultJson.get(i);
-            Assert.assertEquals(expect,actual);
+            JSONObject actual = (JSONObject) resultJsonArray.get(i);
+            Assert.assertEquals(expect.toString(),actual.toString());
         }
 
     }
@@ -63,7 +66,8 @@ public class GetUserListCaseTest {
         //执行请求
         HttpResponse response = TestConfig.defaultHttpClient.execute(post);
         String result = EntityUtils.toString(response.getEntity(),"utf-8");
-        JSONArray jsonArray = new JSONArray(result);
+        List resultList = Arrays.asList(result);
+        JSONArray jsonArray = new JSONArray(resultList);
 
         return jsonArray;
     }

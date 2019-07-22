@@ -15,11 +15,12 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
+import java.util.List;
 
 public class AddUserCaseTest {
 
     @Test(dependsOnGroups = "loginTrue",description = "增加用户的测试")
-    public void addUserCaseTest() throws IOException {
+    public void addUserCaseTest() throws IOException, InterruptedException {
         SqlSession sqlSession = DatabaseUtil.getSqlSession();
         AddUserCase addUserCase = sqlSession.selectOne("addUserCase", 1);
         System.out.println(addUserCase.toString());
@@ -27,15 +28,16 @@ public class AddUserCaseTest {
 
         //发请求，获取结果
         String result = getResult(addUserCase);
+        System.out.println(result);
         //用测试数据去用户表查数据，并打印数据
-        User user = sqlSession.selectOne("addUser", addUserCase);
-        System.out.println(user.toString());
-
+//        User user = sqlSession.selectOne("addUser", addUserCase);
+        List<User> addUser = sqlSession.selectList("addUser", addUserCase);
+        System.out.println(addUser);
         //验证返回结果
         Assert.assertEquals(addUserCase.getExpected(),result);
     }
 
-    private String getResult(AddUserCase addUserCase) throws IOException {
+    private String getResult(AddUserCase addUserCase) throws IOException, InterruptedException {
         HttpPost post = new HttpPost(TestConfig.addUserUrl);
         //1设置请求参数
         JSONObject param = new JSONObject();
@@ -54,6 +56,7 @@ public class AddUserCaseTest {
         //4发请求，并获得response结果
         HttpResponse response = TestConfig.defaultHttpClient.execute(post);
         String result = EntityUtils.toString(response.getEntity(),"utf-8");
+        Thread.sleep(3000);
         return result;
     }
 }

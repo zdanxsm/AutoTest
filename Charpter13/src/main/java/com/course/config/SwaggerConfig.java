@@ -24,6 +24,7 @@ public class SwaggerConfig {
                 .build();
 
     }
+	
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder().title("我的swagger用户管理系统接口")

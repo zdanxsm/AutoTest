@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="1" name="TestSuite" time="1.333" errors="0" skipped="7">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workspace\AutoTest5\AutoTest\Charpter122"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\workspace\AutoTest5\AutoTest\Charpter122"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="D:\workspace\AutoTest5\AutoTest\Charpter122\target\surefire\surefirebooter8322889596188520770.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\Administrator\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;d:\Program Files\Git\cmd;D:\Program Files\Java\jdk1.8.0_201\bin;D:\Program Files\Java\jdk1.8.0_201\jre\bin;D:\mysql\mysql-8.0.16-winx64\bin;D:\maven\apache-maven-3.5.4\bin;D:\Python36\Scripts\;D:\Python36\;D:\Python36-32\Scripts\;D:\Python36-32\;D:\Scripts\;D:\;."/>
+    <property name="surefire.test.class.path" value="D:\workspace\AutoTest5\AutoTest\Charpter122\target\test-classes;D:\workspace\AutoTest5\AutoTest\Charpter122\target\classes;D:\maven\localRepository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\maven\localRepository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;D:\maven\localRepository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;D:\maven\localRepository\org\json\json\20170516\json-20170516.jar;D:\maven\localRepository\org\mybatis\mybatis\3.4.4\mybatis-3.4.4.jar;D:\maven\localRepository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\maven\localRepository\org\projectlombok\lombok\1.16.14\lombok-1.16.14.jar;D:\maven\localRepository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\maven\localRepository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\maven\localRepository\org\xerial\sqlite-jdbc\3.21.0.1\sqlite-jdbc-3.21.0.1.jar;D:\maven\localRepository\org\freemarker\freemarker\2.3.27-incubating\freemarker-2.3.27-incubating.jar;D:\maven\localRepository\org\mongodb\mongodb-driver\3.6.3\mongodb-driver-3.6.3.jar;D:\maven\localRepository\org\mongodb\bson\3.6.3\bson-3.6.3.jar;D:\maven\localRepository\org\mongodb\mongodb-driver-core\3.6.3\mongodb-driver-core-3.6.3.jar;D:\maven\localRepository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\maven\localRepository\com\google\guava\guava\20.0\guava-20.0.jar;D:\maven\localRepository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\maven\localRepository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;D:\maven\localRepository\org\testng\testng\6.10\testng-6.10.jar;D:\maven\localRepository\com\beust\jcommander\1.48\jcommander-1.48.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="D:\workspace\AutoTest5\AutoTest\Charpter122\target\test-classes;D:\workspace\AutoTest5\AutoTest\Charpter122\target\classes;D:\maven\localRepository\org\apache\httpcomponents\httpclient\4.1.2\httpclient-4.1.2.jar;D:\maven\localRepository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;D:\maven\localRepository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;D:\maven\localRepository\org\json\json\20170516\json-20170516.jar;D:\maven\localRepository\org\mybatis\mybatis\3.4.4\mybatis-3.4.4.jar;D:\maven\localRepository\mysql\mysql-connector-java\5.1.6\mysql-connector-java-5.1.6.jar;D:\maven\localRepository\org\projectlombok\lombok\1.16.14\lombok-1.16.14.jar;D:\maven\localRepository\com\relevantcodes\extentreports\2.41.1\extentreports-2.41.1.jar;D:\maven\localRepository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;D:\maven\localRepository\org\xerial\sqlite-jdbc\3.21.0.1\sqlite-jdbc-3.21.0.1.jar;D:\maven\localRepository\org\freemarker\freemarker\2.3.27-incubating\freemarker-2.3.27-incubating.jar;D:\maven\localRepository\org\mongodb\mongodb-driver\3.6.3\mongodb-driver-3.6.3.jar;D:\maven\localRepository\org\mongodb\bson\3.6.3\bson-3.6.3.jar;D:\maven\localRepository\org\mongodb\mongodb-driver-core\3.6.3\mongodb-driver-core-3.6.3.jar;D:\maven\localRepository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;D:\maven\localRepository\com\google\guava\guava\20.0\guava-20.0.jar;D:\maven\localRepository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;D:\maven\localRepository\org\apache\httpcomponents\httpmime\4.5.5\httpmime-4.5.5.jar;D:\maven\localRepository\org\testng\testng\6.10\testng-6.10.jar;D:\maven\localRepository\com\beust\jcommander\1.48\jcommander-1.48.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_201\jre"/>
+    <property name="sun.java.command" value="D:\workspace\AutoTest5\AutoTest\Charpter122\target\surefire\surefirebooter8322889596188520770.jar D:\workspace\AutoTest5\AutoTest\Charpter122\target\surefire\surefire2698024978010323508tmp D:\workspace\AutoTest5\AutoTest\Charpter122\target\surefire\surefire6369893814597463864tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_201\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\maven\localRepository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.course.cases.LoginTest" name="beforeTest" time="0">
+    <failure message="org/apache/commons/logging/LogFactory" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/apache/commons/logging/LogFactory
+	at org.apache.http.impl.client.AbstractHttpClient.&lt;init&gt;(AbstractHttpClient.java:182)
+	at org.apache.http.impl.client.DefaultHttpClient.&lt;init&gt;(DefaultHttpClient.java:150)
+	at com.course.cases.LoginTest.beforeTest(LoginTest.java:30)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.logging.LogFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 35 more
+</failure>
+    <system-out>@HL
+@HL-------------------------------------------------------
+@HL T E S T S
+@HL-------------------------------------------------------
+@SLRunning TestSuite
+</system-out>
+  </testcase>
+  <testcase classname="com.course.cases.LoginTest" name="loginTrue" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.LoginTest" name="loginFalse" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.AddUserCaseTest" name="addUserCaseTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserInfoCaseTest" name="getUserInfoCaseTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.GetUserListCaseTest" name="getUserListCaseTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.UpdateUserInfoCaseTest" name="updateUserInfoCaseTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.course.cases.UpdateUserInfoCaseTest" name="deleteUserTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
